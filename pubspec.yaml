@@ -1,0 +1,70 @@
+name: garida
+description: 가리다
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.0
+  share_plus: ^7.2.1
+  path: ^1.8.0
+  path_provider: ^2.1.1
+  flutter_speed_dial: ^3.0.5
+  image_picker:
+  camera:
+  image: ^3.0.1
+  cached_network_image: ^3.2.0
+  cupertino_icons: ^1.0.2
+  get: ^4.6.6
+  flutter_launcher_icons: ^0.11.0
+  shared_preferences: ^2.2.2
+  http: ^1.1.0
+  dio:
+  flutter_image_compress:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/Logo_page.png
+    - images/Logo_white.jpg
+    - images/Logo_null.png
+    - images/My Repository_.png
+    - images/My Repository.png
+    - images/check-circle.png
+    - images/listimage1.png
+    - images/listimage2.png
+    - images/listimage3.png
+    - images/cloth_mask.png
+    - images/face_background_blurr.jpg
+    - images/face_blurr.jpg
+    - images/face_cloth_mask_background_blurr.png
+    - images/face_cloth_mask.png
+    - images/face_detection.png
+    - images/face_mask_background_blurr.png
+    - images/face_mask.png
+    - images/original.png
+
+  fonts:
+    - family: NanumSquareNeo
+      fonts:
+        - asset: font/NanumSquareNeo-aLt.ttf
+          weight: 400
+        - asset: font/NanumSquareNeo-bRg.ttf
+          weight: 400
+        - asset: font/NanumSquareNeo-cBd.ttf
+          weight: 400
+        - asset: font/NanumSquareNeo-dEb.ttf
+          weight: 400
+        - asset: font/NanumSquareNeo-eHv.ttf
+          weight: 400
